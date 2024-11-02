@@ -1,15 +1,36 @@
-# heritagecenter-new
-An e commerce website which will connect the local heritage manufacturers with the buyers, users can login, register, search by category.
+# Heritage E-Commerce Platform
 
-Two type of users are here:
+This e-commerce platform connects local heritage manufacturers with buyers, providing a seamless shopping experience with dynamic product listings, a robust cart system, and user-specific features. Buyers can search for products by category, view product details, and add items to their cart. Sellers can list products and manage their inventory.
 
-Buyer
-Seller
-Home page consist of:
+## Features
 
-Header consist of search bar, Categories are being fetched by database, User can add items in cart(database), it will show not yet login if user is not logged in, but if session is set then it will display the user logged in user.
-Products are displayed in card form latest 10 items added. Price,title,description is being dynamically fetched by database.
-Add to cart button is functioning with database, if clicked it will added in cart table of database and users can go to cart link and see all the added items there fetched dynamically from database.
-If you click on any product card you will be redirected to the product page where all data being dynamically fetched from database.
-In the same file product.php other users feedback is also dynamically fetched and displayed
-Many more feature are there....
+### User Types
+- **Buyer**: Can browse, search, and add items to the cart.
+- **Seller**: Can add and manage products.
+
+### Home Page
+- **Header**: Contains a search bar and category dropdown.
+  - Categories are dynamically fetched from the database.
+  - Users can log in, and if not logged in, it shows "Not Yet Logged In." If logged in, it displays the logged-in user's name.
+- **Product Display**: Shows the latest 10 products in a card layout.
+  - **Each Product Card**: Includes title, price, and description.
+  - **Add to Cart Button**: Adds the product to the cart, updating the cart database.
+
+### Product Details
+- **Product Page**: Displays complete product information, fetched dynamically from the database.
+  - **User Feedback**: Other users' reviews are also fetched and displayed here.
+
+### Cart System
+- Users can view their cart and see all added items dynamically fetched from the cart database.
+
+## Database Structure
+- **User Table**: Stores buyer and seller information.
+- **Product Table**: Stores product details like title, price, and description.
+- **Category Table**: Stores product categories for easy filtering.
+- **Cart Table**: Stores cart items for each user.
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/heritage-ecommerce.git
