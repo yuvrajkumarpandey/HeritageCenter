@@ -28,3 +28,9 @@ This e-commerce platform connects local heritage manufacturers with buyers, prov
 - **Product Table**: Stores product details like title, price, and description.
 - **Category Table**: Stores product categories for easy filtering.
 - **Cart Table**: Stores cart items for each user.
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yuvrajkumarpandey/PizzaParadise.git
