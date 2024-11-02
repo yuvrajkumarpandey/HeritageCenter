@@ -33,4 +33,4 @@ This e-commerce platform connects local heritage manufacturers with buyers, prov
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yuvrajkumarpandey/PizzaParadise.git
+   git clone https://github.com/yuvrajkumarpandey/HeritageCenter.git
